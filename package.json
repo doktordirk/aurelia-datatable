@@ -29,7 +29,6 @@
     "test": "./node_modules/.bin/gulp test"
   },
   "jspm": {
-    "jspmPackage": true,
     "registry": "npm",
     "main": "aurelia-datatable",
     "format": "amd",
@@ -44,18 +43,7 @@
       "aurelia-router": "^1.0.0-rc.1.0.0",
       "aurelia-templating": "^1.0.0-rc.1.0.0",
       "aurelia-view-manager": "^0.0.5",
-      "json-statham": "^1.6.0",
-      "typer": "^1.1.0"
-    },
-    "peerDependencies": {
-      "aurelia-framework": "^1.0.0-rc.1.0.0",
-      "aurelia-logging": "^1.0.0-rc.1.0.0",
-      "aurelia-orm": "^3.0.0-rc4",
-      "aurelia-pager": "^0.0.5",
-      "aurelia-router": "^1.0.0-rc.1.0.0",
-      "aurelia-templating": "^1.0.0-rc.1.0.0",
-      "aurelia-view-manager": "^0.0.5",
-      "json-statham": "^1.6.0",
+      "json-statham": "github:doktordirk/json-statham@buble",
       "typer": "^1.1.0"
     },
     "devDependencies": {
